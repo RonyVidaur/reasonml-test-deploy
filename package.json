@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "scripts": {
     "build": "bsb -make-world",
-    "start": "npm-run-all --parallel compile serve",
+    "serve": "npm-run-all --parallel compile serve",
     "compile": "bsb -make-world -w",
-    "serve": "parcel index.html",
+    "start": "parcel index.html",
     "clean": "bsb -clean-world"
   },
   "keywords": [
